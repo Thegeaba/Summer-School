@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.meniu{
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 102, 102);
+}
+ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li a{
+    line-height: 80px;
+    color: rgb(219, 145, 145);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    background: rgba(255, 123, 0, 0.7);
+    border-radius: 30px;
+}
+.login{
+    border: 3px solid #fff;
+    border-radius: 100px;
+    top: 380px;
+    left: 500px; 
+    right: 500px;
+    font-size: 40px; 
+    position: fixed;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+.logout{
+    border: 3px solid #fff;
+    border-radius: 100px;
+    top: 380px;
+    left: 500px; 
+    right: 500px;
+    font-size: 40px; 
+    position: fixed;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+
+.pagina {
+    width: 100%;
+}
+ .content {
+    width:100%;
+    height: 300px;
+ }
+.welcome{
+    border: 3px solid #fff;
+    border-radius: 100px;
+    top: 125px;
+    left: 400px; 
+    right: 400px;
+    font-size: 40px; 
+    position: absolute;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+.continut{
+    border: 1px solid #fff;
+    top: 350px;
+    left: 250px; 
+    right: 250px;
+    position: absolute;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+.admin_left{
+    border: 1px solid #fff;
+    top: 500px;
+    left: 1%; 
+    right: 51%;
+    position: absolute;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+
+.admin_right{
+    border: 1px solid #fff;
+    top: 500px;
+    left: 51%; 
+    right: 1%;
+    position: absolute;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.6);
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-top: 1px solid #fff;
+    color:#fff
+}
+section{
+    width: 100%;
+    height: 200vh;
+    background-image: url("../imagini/background.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+img{
+    width: 73px;
+}
+.dimensiune-imagine{
+    margin-top: 0%;
+    width: 150px;
+}
+.calendar{
+    width: 100%;
+}
+.harta{
+    width: 100%;
+}
+.sigla{
+    width: 100px;
+}
+.noutate{
+    width: 180px;
+}
+table {
+    width: 100%;
+    border: 1px solid #ffffff;
+    background: rgba(0,0,0,0.7);
+    color:#fff;
+}  
+td , tr{
+    padding: 2px;
+    text-align: center;
+}
+tr{
+    border:3px solid #000000;
+}
+.highlight:hover {
+    background:rgba(255, 123, 0, 0.7);
+}
+p{
+    text-align: center;
+    padding: 10px, 22px;
+    color:rgb(83, 225, 177);
+}
+.titlu{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(61, 220, 220);
+}
+.cuprins{
+    font-size: 24px;
+}
+.cuprins2{
+    font-size: 22px;
+}
+.subsol{
+    font-size: 14px;
+}
+a{
+    color: rgb(196, 183, 101);
+}
